@@ -1,0 +1,16 @@
+#C {
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: flex-start;
+  
+  
+}
+.Divs {
+    min-height: 50px;
+    min-width: 50px;
+   margin: 5px;
+    background-color: rgb(255, 255, 255);
+    flex-basis:  calc(1/17)
+}
